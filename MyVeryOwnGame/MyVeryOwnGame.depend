@@ -1,23 +1,9 @@
 # depslib dependency file v1.0
-1396453105 source:c:\actualproject_github\myveryowngame\main.cpp
-	<iostream>
-	"Objects.h"
-
-1396451986 source:c:\actualproject_github\myveryowngame\src\baseobject.cpp
-	"BaseObject.h"
-
-1396452286 c:\actualproject_github\myveryowngame\include\baseobject.h
-
-1396452223 c:\actualproject_github\myveryowngame\include\component.h
-	"BaseObject.h"
-
-1396452225 source:c:\actualproject_github\myveryowngame\src\component.cpp
-	"Component.h"
-
-1396452421 source:c:\actualproject_github\myveryowngame\src\objects.cpp
-	"Objects.h"
-
-1396453519 c:\actualproject_github\myveryowngame\include\objects.h
-	"Component.h"
+1397416391 source:c:\actualproject_github\myveryowngame\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<GL/glew.h>
+	<string>
 	<vector>
+	<fstream>
 
