@@ -1,9 +1,37 @@
 # depslib dependency file v1.0
-1397416391 source:c:\actualproject_github\myveryowngame\main.cpp
+1397501737 source:c:\actualproject_github\myveryowngame\main.cpp
+	"Renderer.h"
+
+1397501820 c:\actualproject_github\myveryowngame\include\renderer.h
 	<SDL.h>
 	<SDL_image.h>
 	<GL/glew.h>
 	<string>
 	<vector>
 	<fstream>
+	<iostream>
+
+1397587674 source:c:\actualproject_github\myveryowngame\src\renderer.cpp
+	"Renderer.h"
+
+1397588503 source:c:\actualproject_github\myveryowngame\src\basicguiobject.cpp
+	"BasicGUIObject.h"
+
+1397592325 c:\actualproject_github\myveryowngame\include\basicguiobject.h
+	"Observer.h"
+
+1397591780 source:c:\actualproject_github\myveryowngame\src\button.cpp
+	"Button.h"
+
+1397592212 c:\actualproject_github\myveryowngame\include\button.h
+	"Clickable.h"
+
+1397589210 source:c:\actualproject_github\myveryowngame\src\observer.cpp
+	"Observer.h"
+
+1397589197 c:\actualproject_github\myveryowngame\include\observer.h
+
+1397591878 c:\actualproject_github\myveryowngame\include\clickable.h
+	<BasicGUIObject.h>
+	<list>
 
