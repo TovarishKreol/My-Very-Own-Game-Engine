@@ -1,12 +1,10 @@
 #ifndef RENDERER_H
 #define RENDERER_H
-#include <SDL.h>
-#include <SDL_image.h>
-#include <GL/glew.h>
 #include <string>
 #include <vector>
 #include <fstream>
 #include <iostream>
+#include "Visible.h"
 using namespace std;
 
 class Renderer
@@ -18,12 +16,13 @@ class Renderer
         void on_event(SDL_Event* e);
         void on_render();
         void on_loop();
-        GLuint LoadShaders(const char * vertex_file_path,const char * fragment_file_path);
+        void LoadShaders();
     protected:
     private:
         bool running;
-        SDL_Window* window;
+        SDL_Window *window;
         SDL_GLContext maincontext;
+        GLuint shader_program;
 };
 
 #endif // RENDERER_H

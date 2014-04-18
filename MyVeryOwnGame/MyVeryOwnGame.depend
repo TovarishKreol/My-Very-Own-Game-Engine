@@ -2,23 +2,20 @@
 1397501737 source:c:\actualproject_github\myveryowngame\main.cpp
 	"Renderer.h"
 
-1397501820 c:\actualproject_github\myveryowngame\include\renderer.h
-	<SDL.h>
-	<SDL_image.h>
-	<GL/glew.h>
+1397858946 c:\actualproject_github\myveryowngame\include\renderer.h
 	<string>
 	<vector>
 	<fstream>
 	<iostream>
+	"Visible.h"
 
-1397587674 source:c:\actualproject_github\myveryowngame\src\renderer.cpp
+1397858896 source:c:\actualproject_github\myveryowngame\src\renderer.cpp
 	"Renderer.h"
 
 1397588503 source:c:\actualproject_github\myveryowngame\src\basicguiobject.cpp
 	"BasicGUIObject.h"
 
-1397592325 c:\actualproject_github\myveryowngame\include\basicguiobject.h
-	"Observer.h"
+1397750329 c:\actualproject_github\myveryowngame\include\basicguiobject.h
 
 1397591780 source:c:\actualproject_github\myveryowngame\src\button.cpp
 	"Button.h"
@@ -31,7 +28,408 @@
 
 1397589197 c:\actualproject_github\myveryowngame\include\observer.h
 
-1397591878 c:\actualproject_github\myveryowngame\include\clickable.h
+1397750322 c:\actualproject_github\myveryowngame\include\clickable.h
+	"Observer.h"
 	<BasicGUIObject.h>
 	<list>
+
+1397592377 source:c:\actualproject_github\myveryowngame\src\clickable.cpp
+	"Clickable.h"
+
+1397652358 source:c:\actualproject_github\myveryowngame\src\2dsprite.cpp
+	"2DSprite.h"
+
+1397762191 c:\actualproject_github\myveryowngame\include\2dsprite.h
+	<Visible.h>
+	<SDL_image.h>
+	<string>
+
+1397652355 source:c:\actualproject_github\myveryowngame\src\3dmodel.cpp
+	"3DModel.h"
+
+1397762140 c:\actualproject_github\myveryowngame\include\3dmodel.h
+	<Visible.h>
+
+1397649942 source:c:\actualproject_github\myveryowngame\src\lua_wrapper_api.cpp
+	"Lua_wrapper_API.h"
+
+1397649942 c:\actualproject_github\myveryowngame\include\lua_wrapper_api.h
+
+1397766725 c:\actualproject_github\myveryowngame\include\visible.h
+	<SDL.h>
+	<SDL_image.h>
+	<GL/glew.h>
+	<BasicGUIObject.h>
+	<string>
+	"glm/glm.hpp"
+
+1397858588 source:c:\actualproject_github\myveryowngame\src\visible.cpp
+	"Visible.h"
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_int.hpp
+	"setup.hpp"
+	<cstdint>
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\setup.hpp
+	<cassert>
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\precision.hpp
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\_swizzle.hpp
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\_swizzle_func.hpp
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_vec2.inl
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_vec3.inl
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_vec4.hpp
+	"setup.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_vec4.inl
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat2x2.inl"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_mat2x2.inl
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat2x3.inl"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_mat2x3.inl
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat2x4.inl"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_mat2x4.inl
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat3x2.inl"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_mat3x2.inl
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat3x3.inl"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_mat3x3.inl
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat3x4.inl"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_mat3x4.inl
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat4x2.inl"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_mat4x2.inl
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat4x3.inl"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_mat4x3.inl
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_mat4x4.inl
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\func_trigonometric.hpp
+	"func_trigonometric.inl"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_vec1.inl
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cassert>
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\func_vector_relational.inl
+	<limits>
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\common.hpp
+	"detail/func_common.hpp"
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\type_half.inl
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1397764440 c:\actualproject_github\myveryowngame\include\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"func_integer.inl"
+
+1397764441 c:\actualproject_github\myveryowngame\include\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
 

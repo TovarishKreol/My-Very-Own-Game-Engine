@@ -1,6 +1,6 @@
 #ifndef BASICGUIOBJECT_H
 #define BASICGUIOBJECT_H
-#include "Observer.h"
+
 
 class BasicGUIObject
 {
